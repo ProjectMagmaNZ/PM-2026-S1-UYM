@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Magma 2026 Semester 1 - Upside Youth Mentoring
 
 ## Overview 
