@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Magma 2026 Semester 1 - Upside Youth Mentoring
 
 ## Overview 
@@ -24,3 +25,6 @@ Wentao Yan
 Alex Xue
 
 # Setup
+=======
+# PM-2026-S1-UYM
+>>>>>>> fc91dd3bbb75ba98de2e90f197302c7fc0cdd2c0
