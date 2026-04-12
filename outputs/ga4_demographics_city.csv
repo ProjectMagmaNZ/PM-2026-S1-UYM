@@ -1,0 +1,103 @@
+dimension_name,dimension_value,activeUsers,newUsers,sessions,engagedSessions,eventCount,userEngagementDuration,date_range_start,date_range_end
+city,Auckland,199,179,353,201,2033,18695,28daysAgo,today
+city,Singapore,159,159,158,2,485,60,28daysAgo,today
+city,(not set),105,103,110,15,395,471,28daysAgo,today
+city,Christchurch,52,43,64,34,330,3303,28daysAgo,today
+city,Wellington,23,17,30,16,189,1649,28daysAgo,today
+city,Ashburn,22,21,22,8,84,66,28daysAgo,today
+city,Canberra,13,13,13,1,40,0,28daysAgo,today
+city,Melbourne,13,13,13,0,39,0,28daysAgo,today
+city,Sydney,12,12,12,4,47,97,28daysAgo,today
+city,Des Moines,8,10,10,3,34,34,28daysAgo,today
+city,Prebbleton,8,6,10,6,42,246,28daysAgo,today
+city,Prineville,7,7,7,3,24,15,28daysAgo,today
+city,Hangzhou,6,6,6,0,20,1,28daysAgo,today
+city,Tauranga,6,6,7,6,55,492,28daysAgo,today
+city,Dublin,5,5,5,1,17,4,28daysAgo,today
+city,Hamilton,5,4,9,4,69,796,28daysAgo,today
+city,London,5,6,5,5,35,94,28daysAgo,today
+city,Shanghai,5,5,5,0,18,1,28daysAgo,today
+city,Boardman,4,4,4,3,29,21,28daysAgo,today
+city,Dubai,4,4,4,0,12,0,28daysAgo,today
+city,Forest City,4,4,4,2,14,14,28daysAgo,today
+city,Guangzhou,4,4,4,1,13,7,28daysAgo,today
+city,Zhuhai,4,4,4,0,12,0,28daysAgo,today
+city,Chengdu,3,3,3,0,10,4,28daysAgo,today
+city,Cheyenne,3,3,3,0,11,2,28daysAgo,today
+city,Paris,3,2,3,3,10,6,28daysAgo,today
+city,Seattle,3,3,4,0,12,1,28daysAgo,today
+city,Taupo,3,2,3,2,16,221,28daysAgo,today
+city,Te Anau,3,3,7,3,32,231,28daysAgo,today
+city,Aspen,2,2,2,0,8,9,28daysAgo,today
+city,Changsha,2,2,2,0,8,9,28daysAgo,today
+city,Dunedin,2,1,2,2,9,146,28daysAgo,today
+city,Flint Hill,2,2,2,2,10,30,28daysAgo,today
+city,Frankfurt am Main,2,3,2,1,10,0,28daysAgo,today
+city,Hong Kong,2,2,2,0,8,1,28daysAgo,today
+city,Jiaxing,2,1,2,0,4,1,28daysAgo,today
+city,Levin,2,1,5,3,37,502,28daysAgo,today
+city,Los Angeles,2,2,2,0,6,0,28daysAgo,today
+city,Lulea,2,2,2,1,8,7,28daysAgo,today
+city,Montreal,2,4,2,2,12,0,28daysAgo,today
+city,Porirua,2,2,2,2,20,238,28daysAgo,today
+city,Santa Clara,2,2,2,0,6,0,28daysAgo,today
+city,Silverdale,2,2,2,2,16,75,28daysAgo,today
+city,Whangaparaoa,2,2,2,2,16,107,28daysAgo,today
+city,Xiamen,2,2,2,0,8,4,28daysAgo,today
+city,Abu Dhabi,1,1,1,0,3,0,28daysAgo,today
+city,Ahmedabad,1,1,1,0,3,0,28daysAgo,today
+city,Alloa,1,1,1,1,4,33,28daysAgo,today
+city,Altoona,1,1,1,1,4,7,28daysAgo,today
+city,Amsterdam,1,1,1,0,3,0,28daysAgo,today
+city,Baghdad,1,1,1,0,3,0,28daysAgo,today
+city,Bayingolin Mongol Autonomous Prefecture,1,1,1,0,3,0,28daysAgo,today
+city,Beijing,1,1,1,0,3,0,28daysAgo,today
+city,Bengaluru,1,1,1,0,3,0,28daysAgo,today
+city,Brisbane,1,1,1,0,3,0,28daysAgo,today
+city,Bristol,1,1,1,1,7,33,28daysAgo,today
+city,Chertsey,1,1,1,1,4,77,28daysAgo,today
+city,Chicago,1,1,1,0,3,0,28daysAgo,today
+city,Chilliwack,1,1,2,1,6,0,28daysAgo,today
+city,Chongqing,1,1,1,0,4,1,28daysAgo,today
+city,Council Bluffs,1,1,1,0,3,0,28daysAgo,today
+city,Culiacan,1,1,1,1,4,12,28daysAgo,today
+city,Fort Worth,1,0,1,1,1,4,28daysAgo,today
+city,Fredericksburg,1,1,1,1,5,9,28daysAgo,today
+city,Gunnison,1,1,1,0,5,1,28daysAgo,today
+city,Haiphong,1,1,1,0,3,0,28daysAgo,today
+city,Idaho Springs,1,1,1,0,3,0,28daysAgo,today
+city,Jinan,1,1,1,0,4,3,28daysAgo,today
+city,Kabul,1,1,1,0,3,0,28daysAgo,today
+city,Karaka,1,1,1,0,3,0,28daysAgo,today
+city,Lagos,1,1,1,1,9,1865,28daysAgo,today
+city,Lahore,1,1,1,1,4,17,28daysAgo,today
+city,Lincoln,1,1,1,1,4,15,28daysAgo,today
+city,Lower Hutt,1,1,1,1,7,143,28daysAgo,today
+city,Minneapolis,1,1,1,1,8,86,28daysAgo,today
+city,Moses Lake,1,1,1,0,3,0,28daysAgo,today
+city,Nadi,1,1,1,0,3,0,28daysAgo,today
+city,Napier,1,1,1,1,5,45,28daysAgo,today
+city,Nassau,1,1,1,1,5,72,28daysAgo,today
+city,Nelson,1,1,2,1,6,100,28daysAgo,today
+city,New York,1,1,1,0,4,1,28daysAgo,today
+city,Oamaru,1,1,1,0,3,0,28daysAgo,today
+city,Palmerston North,1,0,1,0,3,1,28daysAgo,today
+city,Patna,1,1,1,1,5,2,28daysAgo,today
+city,Philadelphia,1,1,1,0,3,0,28daysAgo,today
+city,Providence,1,1,1,0,3,0,28daysAgo,today
+city,Puchong,1,1,1,1,16,97,28daysAgo,today
+city,Qingdao,1,1,1,0,4,0,28daysAgo,today
+city,Queenstown,1,1,1,1,10,139,28daysAgo,today
+city,Rach Gia,1,0,1,0,1,0,28daysAgo,today
+city,Raumati South,1,1,1,1,4,10,28daysAgo,today
+city,Rotorua,1,1,1,1,5,1,28daysAgo,today
+city,Salt Lake City,1,1,1,0,4,4,28daysAgo,today
+city,Stockholm,1,1,1,0,5,2,28daysAgo,today
+city,Stockton-on-Tees,1,0,1,1,1,34,28daysAgo,today
+city,Suzhou,1,1,1,0,3,0,28daysAgo,today
+city,Tirana,1,1,1,0,3,0,28daysAgo,today
+city,Vladivostok,1,1,1,0,3,0,28daysAgo,today
+city,Whanganui,1,1,1,1,5,33,28daysAgo,today
+city,Xi'An,1,1,1,0,4,3,28daysAgo,today
+city,Yerevan,1,1,1,0,3,0,28daysAgo,today
+city,Zhoushan,1,1,1,1,4,0,28daysAgo,today

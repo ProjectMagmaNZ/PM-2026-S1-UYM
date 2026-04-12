@@ -1,0 +1,31 @@
+dimension_name,dimension_value,activeUsers,newUsers,sessions,engagedSessions,eventCount,userEngagementDuration,date_range_start,date_range_end
+country,New Zealand,297,283,510,285,2960,27273,28daysAgo,today
+country,Singapore,188,188,187,3,572,60,28daysAgo,today
+country,United States,91,94,95,29,371,552,28daysAgo,today
+country,China,76,74,76,2,259,89,28daysAgo,today
+country,Australia,39,39,39,5,129,97,28daysAgo,today
+country,United Kingdom,10,10,10,10,57,286,28daysAgo,today
+country,Ireland,5,5,5,1,17,4,28daysAgo,today
+country,United Arab Emirates,5,5,5,0,15,0,28daysAgo,today
+country,Germany,4,5,4,3,22,40,28daysAgo,today
+country,Canada,3,5,4,3,18,0,28daysAgo,today
+country,France,3,2,3,3,10,6,28daysAgo,today
+country,India,3,3,3,1,11,2,28daysAgo,today
+country,Sweden,3,3,3,1,13,9,28daysAgo,today
+country,(not set),2,2,2,0,6,0,28daysAgo,today
+country,Hong Kong,2,2,2,0,8,1,28daysAgo,today
+country,Sri Lanka,2,2,2,1,7,17,28daysAgo,today
+country,Vietnam,2,1,2,0,4,0,28daysAgo,today
+country,Afghanistan,1,1,1,0,3,0,28daysAgo,today
+country,Albania,1,1,1,0,3,0,28daysAgo,today
+country,Armenia,1,1,1,0,3,0,28daysAgo,today
+country,Bahamas,1,1,1,1,5,72,28daysAgo,today
+country,Cyprus,1,1,1,1,15,11,28daysAgo,today
+country,Fiji,1,1,1,0,3,0,28daysAgo,today
+country,Iraq,1,1,1,0,3,0,28daysAgo,today
+country,Malaysia,1,1,1,1,16,97,28daysAgo,today
+country,Mexico,1,1,1,1,4,12,28daysAgo,today
+country,Netherlands,1,1,1,0,3,0,28daysAgo,today
+country,Nigeria,1,1,1,1,9,1865,28daysAgo,today
+country,Pakistan,1,1,1,1,4,17,28daysAgo,today
+country,Russia,1,1,1,0,3,0,28daysAgo,today

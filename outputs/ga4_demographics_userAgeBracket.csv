@@ -1,0 +1,8 @@
+dimension_name,dimension_value,activeUsers,newUsers,sessions,engagedSessions,eventCount,userEngagementDuration,date_range_start,date_range_end
+userAgeBracket,unknown,638,636,815,253,3719,24068,28daysAgo,today
+userAgeBracket,65+,33,30,40,33,220,2196,28daysAgo,today
+userAgeBracket,55-64,21,20,28,20,179,1595,28daysAgo,today
+userAgeBracket,25-34,18,17,32,17,210,1650,28daysAgo,today
+userAgeBracket,35-44,13,13,14,10,82,421,28daysAgo,today
+userAgeBracket,45-54,11,11,16,9,84,310,28daysAgo,today
+userAgeBracket,18-24,10,9,14,7,59,270,28daysAgo,today

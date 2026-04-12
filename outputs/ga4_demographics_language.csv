@@ -1,0 +1,7 @@
+dimension_name,dimension_value,activeUsers,newUsers,sessions,engagedSessions,eventCount,userEngagementDuration,date_range_start,date_range_end
+language,English,658,653,874,343,4256,29778,28daysAgo,today
+language,Chinese,80,79,81,4,277,77,28daysAgo,today
+language,Arabic,1,1,1,0,3,0,28daysAgo,today
+language,Danish,1,1,2,1,6,100,28daysAgo,today
+language,Korean,1,1,1,1,8,555,28daysAgo,today
+language,Russian,1,1,1,0,3,0,28daysAgo,today
