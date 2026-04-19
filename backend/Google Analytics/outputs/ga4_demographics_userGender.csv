@@ -1,0 +1,4 @@
+dimension_name,dimension_value,activeUsers,newUsers,sessions,engagedSessions,eventCount,userEngagementDuration,date_range_start,date_range_end
+userGender,unknown,626,624,782,235,3528,21227,28daysAgo,today
+userGender,female,94,88,137,92,849,7970,28daysAgo,today
+userGender,male,25,24,39,22,176,1313,28daysAgo,today

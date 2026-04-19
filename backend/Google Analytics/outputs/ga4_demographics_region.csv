@@ -1,0 +1,74 @@
+dimension_name,dimension_value,activeUsers,newUsers,sessions,engagedSessions,eventCount,userEngagementDuration,date_range_start,date_range_end
+region,(not set),241,239,239,7,768,234,28daysAgo,today
+region,Auckland,203,184,357,204,2068,18877,28daysAgo,today
+region,Canterbury Region,60,50,78,41,385,3564,28daysAgo,today
+region,Virginia,31,32,32,15,131,327,28daysAgo,today
+region,Wellington Region,27,21,34,20,220,2040,28daysAgo,today
+region,Australian Capital Territory,13,13,13,1,40,0,28daysAgo,today
+region,Victoria,13,13,13,0,39,0,28daysAgo,today
+region,New South Wales,12,12,12,4,47,97,28daysAgo,today
+region,Oregon,11,11,11,6,53,36,28daysAgo,today
+region,Iowa,10,12,12,4,41,41,28daysAgo,today
+region,Waikato Region,10,8,16,6,95,1017,28daysAgo,today
+region,Bay of Plenty Region,9,9,10,9,79,578,28daysAgo,today
+region,England,9,9,9,9,53,253,28daysAgo,today
+region,Zhejiang,9,8,9,1,28,2,28daysAgo,today
+region,Guangdong Province,8,8,8,1,25,7,28daysAgo,today
+region,California,7,7,7,0,24,8,28daysAgo,today
+region,County Dublin,5,5,5,1,17,4,28daysAgo,today
+region,Otago Region,5,4,5,4,25,285,28daysAgo,today
+region,Shanghai,5,5,5,0,18,1,28daysAgo,today
+region,Colorado,4,4,4,0,16,10,28daysAgo,today
+region,Dubai,4,4,4,0,12,0,28daysAgo,today
+region,Manawatu-Whanganui Region,4,2,7,4,45,536,28daysAgo,today
+region,North Carolina,4,4,4,2,14,14,28daysAgo,today
+region,Washington,4,4,5,0,15,1,28daysAgo,today
+region,Ile-de-France,3,2,3,3,10,6,28daysAgo,today
+region,Sichuan,3,3,3,0,10,4,28daysAgo,today
+region,Southland Region,3,3,7,3,32,231,28daysAgo,today
+region,Wyoming,3,3,3,0,11,2,28daysAgo,today
+region,Florida,2,2,2,0,8,11,28daysAgo,today
+region,Fujian,2,2,2,0,8,4,28daysAgo,today
+region,Heilongjiang,2,2,2,0,9,12,28daysAgo,today
+region,Hessen,2,3,2,1,10,0,28daysAgo,today
+region,Hunan,2,2,2,0,8,9,28daysAgo,today
+region,Norrbotten County,2,2,2,1,8,7,28daysAgo,today
+region,Quebec,2,4,2,2,12,0,28daysAgo,today
+region,Shandong,2,2,2,0,8,3,28daysAgo,today
+region,Texas,2,2,2,1,8,4,28daysAgo,today
+region,Western Province,2,2,2,1,7,17,28daysAgo,today
+region,,1,1,1,0,3,0,28daysAgo,today
+region,Abu Dhabi,1,1,1,0,3,0,28daysAgo,today
+region,Baghdad Governorate,1,1,1,0,3,0,28daysAgo,today
+region,Beijing,1,1,1,0,3,0,28daysAgo,today
+region,Bihar,1,1,1,1,5,2,28daysAgo,today
+region,British Columbia,1,1,2,1,6,0,28daysAgo,today
+region,Chongqing,1,1,1,0,4,1,28daysAgo,today
+region,Gujarat,1,1,1,0,3,0,28daysAgo,today
+region,Hai Phong,1,1,1,0,3,0,28daysAgo,today
+region,Hawke's Bay Region,1,1,1,1,5,45,28daysAgo,today
+region,Illinois,1,1,1,0,3,0,28daysAgo,today
+region,Jiangsu,1,1,1,0,3,0,28daysAgo,today
+region,Kabul,1,1,1,0,3,0,28daysAgo,today
+region,Kansas,1,1,1,0,3,0,28daysAgo,today
+region,Karnataka,1,1,1,0,3,0,28daysAgo,today
+region,Kien Giang,1,0,1,0,1,0,28daysAgo,today
+region,Lagos,1,1,1,1,9,1865,28daysAgo,today
+region,Minnesota,1,1,1,1,8,86,28daysAgo,today
+region,Nebraska,1,1,1,0,3,0,28daysAgo,today
+region,Nelson Region,1,1,2,1,6,100,28daysAgo,today
+region,New York,1,1,1,0,4,1,28daysAgo,today
+region,North Holland,1,1,1,0,3,0,28daysAgo,today
+region,Pennsylvania,1,1,1,0,3,0,28daysAgo,today
+region,Primorsky Krai,1,1,1,0,3,0,28daysAgo,today
+region,Punjab,1,1,1,1,4,17,28daysAgo,today
+region,Queensland,1,1,1,0,3,0,28daysAgo,today
+region,Rhode Island,1,1,1,0,3,0,28daysAgo,today
+region,Scotland,1,1,1,1,4,33,28daysAgo,today
+region,Selangor,1,1,1,1,16,97,28daysAgo,today
+region,Shaanxi,1,1,1,0,4,3,28daysAgo,today
+region,Sinaloa,1,1,1,1,4,12,28daysAgo,today
+region,Stockholm County,1,1,1,0,5,2,28daysAgo,today
+region,Utah,1,1,1,0,4,4,28daysAgo,today
+region,Western Division,1,1,1,0,3,0,28daysAgo,today
+region,Xinjiang,1,1,1,0,3,0,28daysAgo,today
