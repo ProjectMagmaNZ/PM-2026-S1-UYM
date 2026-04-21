@@ -1,4 +1,42 @@
 # PM-2026-S1-UYM
+
+## Project Overview
+
+Creating a web-based analytics dashboard for social media and website performance data for Upside Youth Mentoring.
+
+## Tech Stack
+
+Frontend:
+- React 19 with TypeScript
+- Vite (dev server and build tool)
+- Tailwind CSS v4
+- Recharts (bar, area, pie charts)
+- react-simple-maps (NZ and world maps)
+- Motion (animations)
+
+Backend:
+- Python
+- Google Analytics Data API
+- FastAPI
+
+## Features (MVP)
+
+Dashboard which shows:
+- Google Analytics metrics
+- Meta Business Suite metrics
+- Monthly summary tab
+- Yearly summary tab
+- Clean, simple UX/UI with statistics displayed and basic charts
+
+## Members
+
+- Kavya Thangella (Team Lead)
+- Thisumi Goonawardana
+- Niklaus Li
+- Ben Nguyen
+- Wentao Yan
+- Alex Xue
+
 ## How to Run This Project
 
 This project uses a `pyproject.toml` file to manage dependencies. You can use `uv` to set up the environment. Please, remember to install `uv` if you haven't already. [Link](https://docs.astral.sh/uv/#highlights) 
@@ -51,7 +89,7 @@ Add these variables to `.env` before running the demographics notebook:
 
 ```bash
 GA4_PROPERTY_ID=your_ga4_property_id
-GA4_KEY_FILE_LOCATION=/absolute/path/to/service-account.json
+GA4_CREDENTIALS_PATH=/absolute/path/to/service-account.json
 ```
 
 Running [demographics.ipynb](demographics.ipynb) writes separate CSV files into the `outputs/` folder. Each file is a tidy table with one row per GA4 result and columns for the selected dimensions, metrics, and date range.
