@@ -87,6 +87,102 @@ The notebook currently exports these GA4 metrics into each demographics CSV:
 | `userEngagementDuration` | Total user engagement time in seconds while site/app was in foreground. |
 
 Each exported CSV also includes:
-- `dimension_name`: The GA4 API name of the demographic dimension used for that file.
-- `dimension_value`: The value for that demographic bucket in each row.
+- `demographic_dimension`: The GA4 API name of the demographic dimension used for that file.
+- `demographic_value`: The value for that demographic bucket in each row.
 - `date_range_start` and `date_range_end`: Date range used for the query.
+
+## FastAPI Service (For Frontend)
+
+This project now includes a FastAPI service that reads the CSV files in `outputs/` and exposes them via REST endpoints.
+
+### Run API Locally
+
+1. Install dependencies:
+
+```bash
+uv sync
+```
+
+2. Start the API:
+
+```bash
+uv run python main.py
+```
+
+3. Open API docs:
+
+- Swagger UI: `http://localhost:8000/docs`
+- OpenAPI JSON: `http://localhost:8000/openapi.json`
+
+### Environment Variables
+
+Optional variables for API behavior:
+
+```bash
+API_HOST=0.0.0.0
+API_PORT=8000
+API_PREFIX=/api/v1
+OUTPUT_DIR=outputs
+ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+CACHE_TTL_SECONDS=120
+```
+
+### API Endpoints
+
+- `GET /health`
+	- Health and data readiness.
+- `GET /api/v1/demographics`
+	- Query params:
+		- `dimension` (optional)
+		- `year_month` (optional, format `YYYYMM`)
+		- `value` (optional substring match on demographic value)
+		- `limit` (default `100`, max `1000`)
+		- `offset` (default `0`)
+		- `sort_by` (`year_month`, `demographic_value`, `activeUsers`, `newUsers`, `sessions`, `engagedSessions`, `eventCount`, `userEngagementDuration`)
+		- `sort_order` (`asc` or `desc`)
+- `GET /api/v1/demographics/{dimension}`
+	- Same filters as above, with path-level dimension.
+- `GET /api/v1/metadata/dimensions`
+	- Returns available dimensions from current CSV snapshot.
+- `GET /api/v1/metadata/months`
+	- Returns available `year_month` values from current CSV snapshot.
+
+### Example Requests
+
+```bash
+curl "http://localhost:8000/api/v1/demographics?dimension=userGender&year_month=202601&limit=20&offset=0"
+```
+
+```bash
+curl "http://localhost:8000/api/v1/metadata/dimensions"
+```
+
+```bash
+curl "http://localhost:8000/health"
+```
+
+### Response Shape (List Endpoint)
+
+```json
+{
+	"total": 123,
+	"limit": 20,
+	"offset": 0,
+	"has_next": true,
+	"items": [
+		{
+			"demographic_dimension": "userGender",
+			"year_month": "202601",
+			"demographic_value": "female",
+			"activeUsers": 31,
+			"newUsers": 30,
+			"sessions": 51,
+			"engagedSessions": 37,
+			"eventCount": 416,
+			"userEngagementDuration": 6870,
+			"date_range_start": "2026-01-01",
+			"date_range_end": "yesterday"
+		}
+	]
+}
+```
