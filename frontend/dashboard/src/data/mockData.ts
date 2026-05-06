@@ -39,12 +39,42 @@ export const AGE_DEMOGRAPHICS: AgeDemographic[] = [
   { age: '55+', meta: 40, google: 35 },
 ];
 
+export const AGE_DEMOGRAPHICS_FACEBOOK: AgeDemographic[] = [
+  { age: '13-17', meta: 24, google: 0 },
+  { age: '18-24', meta: 42, google: 0 },
+  { age: '25-34', meta: 68, google: 0 },
+  { age: '35-44', meta: 46, google: 0 },
+  { age: '45-54', meta: 28, google: 0 },
+  { age: '55+', meta: 18, google: 0 },
+];
+
+export const AGE_DEMOGRAPHICS_INSTAGRAM: AgeDemographic[] = [
+  { age: '13-17', meta: 20, google: 0 },
+  { age: '18-24', meta: 35, google: 0 },
+  { age: '25-34', meta: 52, google: 0 },
+  { age: '35-44', meta: 34, google: 0 },
+  { age: '45-54', meta: 22, google: 0 },
+  { age: '55+', meta: 16, google: 0 },
+];
+
 // REPLACE: Pull from Meta Ads API or Google Analytics gender breakdown
 // Shape: { name: string, value: number (percentage), color: string }
 export const GENDER_DISTRIBUTION: GenderData[] = [
   { name: 'Female', value: 72.4, color: '#FFB800' },
   { name: 'Male', value: 25.1, color: '#6B5600' },
   { name: 'Other', value: 2.5, color: '#E2E8F0' },
+];
+
+export const GENDER_DISTRIBUTION_FACEBOOK: GenderData[] = [
+  { name: 'Female', value: 520, color: '#FFB800' },
+  { name: 'Male', value: 340, color: '#6B5600' },
+  { name: 'Other', value: 28, color: '#E2E8F0' },
+];
+
+export const GENDER_DISTRIBUTION_INSTAGRAM: GenderData[] = [
+  { name: 'Female', value: 210, color: '#FFB800' },
+  { name: 'Male', value: 95, color: '#6B5600' },
+  { name: 'Other', value: 12, color: '#E2E8F0' },
 ];
 
 // REPLACE: Pull from Google Analytics geographic report
