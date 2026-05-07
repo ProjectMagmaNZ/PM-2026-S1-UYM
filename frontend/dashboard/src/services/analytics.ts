@@ -1,6 +1,13 @@
 const API_BASE = 'http://localhost:8000/api/v1';
 const CURRENT_YEAR = '2026';
 
+import {
+  AGE_DEMOGRAPHICS_FACEBOOK,
+  AGE_DEMOGRAPHICS_INSTAGRAM,
+  GENDER_DISTRIBUTION_FACEBOOK,
+  GENDER_DISTRIBUTION_INSTAGRAM,
+} from '../data/mockData';
+
 interface DemographicRecord {
   demographic_dimension: string;
   year_month: string;
@@ -21,6 +28,12 @@ interface DemographicsResponse {
   offset: number;
   has_next: boolean;
   items: DemographicRecord[];
+}
+
+export interface GenderDistributionCount {
+  name: string;
+  count: number;
+  color: string;
 }
 
 async function fetchDimension(dimension: string, yearMonth?: string): Promise<DemographicRecord[]> {
@@ -65,22 +78,66 @@ export async function fetchAgeDemographics(yearMonth?: string) {
     .sort((a, b) => a.age.localeCompare(b.age));
 }
 
-export async function fetchGenderDistribution(yearMonth?: string) {
+export async function fetchFacebookAgeDemographics() {
+  return AGE_DEMOGRAPHICS_FACEBOOK;
+}
+
+export async function fetchInstagramAgeDemographics() {
+  return AGE_DEMOGRAPHICS_INSTAGRAM;
+}
+
+export async function fetchGenderDistributionCounts(yearMonth?: string): Promise<GenderDistributionCount[]> {
   const records = await fetchDimension('userGender', yearMonth);
   const grouped = new Map<string, number>();
+
   for (const r of records) {
     grouped.set(r.demographic_value, (grouped.get(r.demographic_value) || 0) + r.activeUsers);
   }
-  const total = Array.from(grouped.values()).reduce((s, v) => s + v, 0);
-  const COLORS: Record<string, string> = { female: '#FFB800', male: '#6B5600', unknown: '#E2E8F0' };
-  const NAME_MAP: Record<string, string> = { female: 'Female', male: 'Male', unknown: 'Other' };
+
+  const COLORS: Record<string, string> = {
+    female: '#FFB800',
+    male: '#6B5600',
+    unknown: '#E2E8F0',
+  };
+  const NAME_MAP: Record<string, string> = {
+    female: 'Female',
+    male: 'Male',
+    unknown: 'Other',
+  };
+
   return Array.from(grouped.entries())
     .map(([key, count]) => ({
       name: NAME_MAP[key] ?? key,
-      value: total > 0 ? parseFloat(((count / total) * 100).toFixed(1)) : 0,
+      count,
       color: COLORS[key] ?? '#CBD5E1',
     }))
-    .sort((a, b) => b.value - a.value);
+    .sort((a, b) => b.count - a.count);
+}
+
+export async function fetchFacebookGenderDistributionCounts() {
+  return GENDER_DISTRIBUTION_FACEBOOK.map((item) => ({
+    name: item.name,
+    count: item.value,
+    color: item.color,
+  }));
+}
+
+export async function fetchInstagramGenderDistributionCounts() {
+  return GENDER_DISTRIBUTION_INSTAGRAM.map((item) => ({
+    name: item.name,
+    count: item.value,
+    color: item.color,
+  }));
+}
+
+export async function fetchGenderDistribution(yearMonth?: string) {
+  const items = await fetchGenderDistributionCounts(yearMonth);
+  const total = items.reduce((sum, item) => sum + item.count, 0) || 1;
+  return items.map((item) => ({
+    name: item.name,
+    value: parseFloat(((item.count / total) * 100).toFixed(1)),
+    color: item.color,
+  }));
 }
 
 export async function fetchCountryReach(yearMonth?: string) {
