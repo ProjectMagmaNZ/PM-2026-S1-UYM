@@ -41,6 +41,9 @@ Dashboard which shows:
 In root folder, run: 
 ```uv run --with fastapi --with uvicorn --with pandas uvicorn api.main:app --reload```
 
+In backend/Meta Business Suite, run:
+```python3 final_fake_meta_api.py
+
 In frontend/dashboard, run: 
 ```npm run dev```
 
